@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+    <meta charset="utf-8">
+    <title>Bar menu</title>
+	<link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,300;1,500&family=Rubik+Dirt&display=swap" rel="stylesheet">
+  </head>
+  <style>
+    * {
+	  font-family: 'Fira Sans', sans-serif;
+	  font-style: italic;
+	  font-weight: 300;
+	  font-size: 5vmin;
+    }
+
+  	header {
+      padding-bottom: 10px;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 1.5em;
+      text-align: center;
+      color: #000000;
+      margin-bottom: 0.5em;
+    }
+
+    table {
+      width: 100%;
+      font-size: 10pt;
+      border-spacing: 0;
+    }
+
+    tr {
+      vertical-align: top;
+      page-break-inside: avoid;
+    }
+
+    td {
+      padding:    0.5em;
+      vertical-align: top;
+	  font-weight: 300;
+    }
+
+	.drinkname {
+	  font-family: 'Rubik Dirt', cursive;
+	  font-style: normal;
+	  font-size: 6.5vmin;
+	  text-align: center;
+	  padding: 0.6em;
+	  height: 0;
+	}
+
+	.picl {
+		height: 35vh;
+		text-align: center;
+		padding-top: 0;
+		padding-bottom: 0;
+		padding-right:   1.0em;
+		width: 0;
+	}
+
+	.picr {
+		height: 38vh;
+		text-align: center;
+		padding-top: 0;
+		padding-bottom: 0;
+		padding-left:   1.0em;
+		width: 0;
+	}
+
+  </style>
+  <body>
+    <!--<header></header>-->
+    <main>
+      <!--<h1>Барное меню</h1>-->
+	  <table>
+		<tr>
+		  <td class="picl" rowspan="2"><img src="img/mojito.jpg"></td>
+		  <td id = "mojito" class="drinkname">Мохито</td>
+		</tr>
+		<tr>
+		  <td>Коктейль на основе лайма и листьев мяты. Происходит с острова Куба, стал популярен в США в 1980-х.</td>
+		</tr>
+	  </table>
+	  <table>
+		<tr>
+		  <td id="frutoccino" class="drinkname">Фруточино</td>
+		  <td class="picr" rowspan="2"><img src="img/frutoccino.jpg"></td>
+		</tr>
+		<tr>
+		  <td>Коктейль на основе грейпфрутового сока и кофе эспрессо.</td>
+		</tr>
+	  </table>
+	  <table>
+		<tr>
+		  <td class="picl" rowspan="2"><img src="img/bumblebee.jpg"></td>
+		  <td id = "bumblebee" class="drinkname">Шмель</td>
+		</tr>
+		<tr>
+		  <td>Коктейль на основе карамельного сиропа, апельсинового сока и кофе эспрессо.</td>
+		</tr>
+	  </table>
+    </main>
+  </body>
+</html>
