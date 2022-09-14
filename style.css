@@ -42,6 +42,7 @@ td {
 	font-size: 1.4em;
 	text-align: center;
 	padding: 0.1em;
+	margin-top: 0.3em;
 	margin-bottom: 0.5em;
 	color: white;
 }
@@ -67,6 +68,7 @@ td {
 .pic {
 	width: 35vmin;
 	float:left;
+	padding-top: 0.4em;
 	padding-bottom: 0.5em;
-	padding-right:   1.0em;
+	padding-right:   0.9em;
 }
